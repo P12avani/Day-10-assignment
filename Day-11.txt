@@ -1,0 +1,77 @@
+Day-11 
+=======================
+Arrays
+------------------
+Array is an index based collection of homogeneous data elements
+
+what is index
+-------------------
+index is an integer start with 0 ends with end-1;
+
+the main advantage of an array is we can represent multiple values in a single line readability of the code will be improved.
+
+but the main disadvantage of array is:
+--------------------------------------
+1.fixed in size once we create an array we cannot increasing or decreasing the size based on our requirement that is to use arrays concept compulsory we should know the size in advance which may not possible always.
+2.array can hold only homogenious data elements
+
+we can resolve this problem by using collections.
+
+1.single dimensional array declaration
+=========================================
+int[] a;//recommended to use  because name isclearly separated from the type.
+int []a;
+int a[];
+note:
+-----
+at the time of array declaration we can't specify the size.otherwise we will get compiletime error.
+ex:
+=========
+int[] a;//valid
+int[5] a;//invalid
+
+Array construction
+======================
+Every array in java is an object hence we can create by using new operator
+ex
+-------
+int[] a=new int[3];
+String[] name=new int[5];
+double[] prices=new int[10];
+
+q) what is the default value of arrays
+a)null
+1.for every type corresponding classes are available .but this classes are part of java language and not available to the programmatic level.
+
+Array initialization
+------------------------
+whenever we are creating an array every element is initialized with its default values automatically.
+
+if we are not satisfied with its default values we can replace with our customized values.
+
+
+Declaration,creation and initialization in single line
+=========================================================
+declaration===>int [] a;
+creation====>a=new int[5];
+initialization a[0]=10;                           int[] a={10,20,30,40,50};
+               a[1]=20;               --------->  char[] ch={'a','b','c','d','e'};
+               a[2]=30;                           String[] fruits={"apple","banana","cherry"}
+               a[3]=40;
+               a[4]=50;
+----------------------------------------------------------------------------------------------------
+
+length vs length()
+=========================
+length
+===========
+length is a final variable applicable for arrays.by using length variable we can find out the arrays size.
+
+length()
+==========
+length is a final method applicable for strings.by using length method we can findout the length of a string.
+
+//sum of elements in an array.
+10,20,30==>60
+
+//finding average elements in array.

@@ -1,0 +1,86 @@
+Day-10 &11
+========================
+Looping statements or iterative statements
+-------------------------------------------
+while loop   (minium no.of occurance=0)
+===========
+if we don't know no .of iterations then we should go for while loop.
+syntax
+------
+while(some action){
+-----------
+-----------
+----------
+}
+
+while loop is nothing but top-tested loop
+semicolon is not mandatory
+minimum no.of executions are 0.
+--------------------------------------------------
+do-while    (minimum no.of occurance=1)
+===========
+if atleast one time is executing the do block then we should go for do while
+syntax
+------
+do{
+--------
+---------
+--------
+}while(some condition);
+
+do while loop is nothing but bottom tested loop
+semicolon is mandatory
+minimum no.of executions are 1.
+
+----------------------------------------------------------------
+for-loop
+===========
+if we know the no.of iterations then we should go for for-loop.
+syntax
+---------
+for(initialization-section;condition-check;increment/decrement section){
+--------------------
+--------------------
+}
+
+Initialization section
+=========================
+this section will be executed only once in entire for loop
+
+Jumping statements
+================================
+break;
+=========
+the break statement is used to terminate the execution of loop or switch or label block.
+
+we can use break statements in 3 places only such as
+1.inside switch
+2.inside loops
+3.inside label blocks.
+if we are using any otherwhere we are getting compile time error.
+
+continue;
+==========
+to skip the current iteration and proceed to the next iteration.
+--------------------------------------------------------------------------------
+//1.table multiplication
+// 2. count the digits in a number.
+ex;1234
+1234/10 not getting the zero count increaded(initial count=0)
+//3.sum of digits
+//4.factorial number
+//5. Armstrong number.
+//6.reverse number.
+//7.palindrome number
+//8.fibonacci series
+//9.sum of even and odd number upto n terms
+//10.print prime numbers sum upto n
+------------------------------------------------------------------------------
+/*1234
+		 * number>=10
+		  digitSum=0;
+		    1234>0
+		    lastDigit=number%10-->1234%10-->4 123%10-->3==>12%0-->2==>1%10-->1
+		    digitSum=digitSum+lastDigit-->0+4==>4==>4+3-->7==>7+2==>9+1=10
+		    number/10-->1234/10-->123==>123/10-->12/10-->1
+		 */
